@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>auth</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>
+  <div class="ion-text-start">
+<h2> Bien venu</h2>
+</div>
+<ion-item>
+  <ion-label position="floating">login ici </ion-label>
+  <ion-input [(ngModel)]="patient.login")] name="log"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label position="floating">mot de passe ici </ion-label>
+  <ion-input [(ngModel)]="patient.mdp")] name="mdp" type="password"></ion-input>
+</ion-item>
+<div>
+<ion-button expand="block">se connecter </ion-button>
+</div>
+</form>
+</ion-content>
